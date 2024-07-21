@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+}
+.header{
+    background-color: #F4F6F7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 5px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 60px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;    
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: black;
+    text-decoration: none;    
+}
+
+.header .nav-links li a:hover{
+    color:black;
+}
+
+.header .btn button{
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover{
+    background-color: #e2f1f8;
+    color:brown;
+    transform: scale(1.1);
+}
+
+.inter{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 50px;
+}
+.img-01{
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    padding: 50px;
+       
+}
+.foto-01{
+    width: 550px;
+    transition: .95s;
+}
+.foto-01:hover{
+    transform: scale(1.1);
+}
+p{
+    padding: 10px;
+    font-size: 20px;
+    text-align: justify;
+    
+}
+.img-02{
+    display: flex;
+    justify-content:right;
+    gap: 30px;
+    padding: 50px;
+    text-align:justify;
+    background-color: #F4F6F7;
+}
+.cierre{
+    padding: 10%;
+    background-image: url("/img/cierre/01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+    background-size: 100% 100%;
+    display: grid;
+    justify-content: center;
+    gap: 30px;
+}
+.btn-centrado{
+    display: grid;
+    justify-content: center;
+}
+
+.cierre-fod{
+    color: #1c0d02;
+    font-family: 'Brush Script MT', cursive;
+    font-style: italic;
+    font-size: 50px;
+    
+}
+
+
+
+
